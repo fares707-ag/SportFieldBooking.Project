@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fields | SportFields</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="pages.css">
+</head>
+<body>
+<header>
+    <nav>
+        <h2>SportFields</h2>
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports</a>
+        <a href="fields.html">Fields</a>
+        <a href="bookings.html">My Bookings</a>
+        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="about.html">About Us</a>
+    </nav>
+</header>
+<main class="page-main">
+    <section class="page-intro">
+        <h1>Sports Fields</h1>
+        <p>Browse the featured fields and follow a link to the booking page.</p>
+    </section>
+    <section>
+        <h2>Featured Fields</h2>
+        <div class="card-grid">
+            <article class="page-card">
+                <img src="images/football.jpeg" alt="Green Field Complex football field">
+                <h3>Green Field Complex</h3>
+                <p><strong>Sport:</strong> Football</p>
+                <p><strong>Location:</strong> Al Salamah, Jeddah</p>
+                <p><strong>Rating:</strong> 4.8 (120 reviews)</p>
+                <p><strong>Price:</strong> 60 SAR / hour</p>
+                <a class="button-link" href="bookings.html">Go to My Bookings</a>
+            </article>
+            <article class="page-card">
+                <img src="images/basketball.jpeg" alt="Elite Sports Center basketball court">
+                <h3>Elite Sports Center</h3>
+                <p><strong>Sport:</strong> Basketball</p>
+                <p><strong>Location:</strong> Al Rawdah, Jeddah</p>
+                <p><strong>Rating:</strong> 4.6 (85 reviews)</p>
+                <p><strong>Price:</strong> 50 SAR / hour</p>
+                <a class="button-link" href="bookings.html">Go to My Bookings</a>
+            </article>
+            <article class="page-card">
+                <img src="images/volleyball.jpeg" alt="Sunrise Arena volleyball court">
+                <h3>Sunrise Arena</h3>
+                <p><strong>Sport:</strong> Volleyball</p>
+                <p><strong>Location:</strong> Al Shati, Jeddah</p>
+                <p><strong>Rating:</strong> 4.5 (96 reviews)</p>
+                <p><strong>Price:</strong> 70 SAR / hour</p>
+                <a class="button-link" href="bookings.html">Go to My Bookings</a>
+            </article>
+        </div>
+    </section>
+    <section>
+        <h2>Find a Field</h2>
+        <form action="fields.html" method="get">
+            <label for="sport">Sport:</label>
+            <select id="sport" name="sport">
+                <option value="football">Football</option>
+                <option value="basketball">Basketball</option>
+                <option value="volleyball">Volleyball</option>
+                <option value="tennis">Tennis</option>
+                <option value="padel">Padel</option>
+                <option value="badminton">Badminton</option>
+            </select>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Jeddah">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <h2>SportFields</h2>
+    <p>Sports Fields. Better Games.</p>
+    <nav>
+        <a href="index.html">Home</a><a href="sports.html">Sports</a><a href="fields.html">Fields</a>
+        <a href="bookings.html">My Bookings</a><a href="about.html">About Us</a>
+    </nav>
+</footer>
+</body>
+</html>

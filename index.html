@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>SportFields</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        footer p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <nav>
+        <h2 style="color: #20a45a;">SportFields</h2>
+
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports</a>
+        <a href="fields.html">Fields</a>
+        <a href="bookings.html">My Bookings</a>
+        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="about.html">About Us</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- Page Links -->
+    <nav>
+        <a href="#popularSports">Popular Sports</a>
+        <a href="#featuredFields">Featured Fields</a>
+        <a href="#howItWorks">How It Works</a>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section>
+        <h1>BOOK YOUR NEXT GAME</h1>
+
+        <p>
+            Find and book sports fields for football, basketball,
+            volleyball, tennis and more in your area.
+        </p>
+
+        <p>Play. Book. Enjoy.</p>
+
+        <!-- Image Mapping -->
+        <h3>Explore SportFields</h3>
+
+        <img src="images/main.jpeg"
+            alt="SportFields"
+            width="300"
+            height="200"
+            usemap="#sportMap">
+
+        <map name="sportMap">
+            <area shape="rect"
+                coords="0,0,300,200"
+                href="about.html"
+                alt="About SportFields">
+        </map>
+
+    </section>
+
+
+    <!-- Search Box -->
+    <section>
+        <form>
+
+            <label for="sport">Sport:</label>
+
+            <select id="sport" name="sport">
+                <option>Football</option>
+                <option>Basketball</option>
+                <option>Volleyball</option>
+                <option>Tennis</option>
+                <option>Padel</option>
+                <option>Badminton</option>
+            </select>
+
+            <label for="location">Location:</label>
+
+            <input type="text" id="location"
+                name="location" placeholder="Jeddah">
+
+            <label for="date">Date:</label>
+
+            <input type="date" id="date" name="date">
+
+            <button type="submit">Search Fields</button>
+
+        </form>
+    </section>
+
+
+    <!-- Popular Sports -->
+    <section id="popularSports">
+        <h2>Popular Sports</h2>
+
+        <ul>
+            <li>⚽️ Football</li>
+            <li>🏀 Basketball</li>
+            <li>🏐 Volleyball</li>
+            <li>🎾 Tennis</li>
+            <li>🎾 Padel</li>
+            <li>🏸 Badminton</li>
+        </ul>
+    </section>
+
+
+    <!-- Featured Fields -->
+    <section id="featuredFields">
+        <h2>Featured Fields</h2>
+
+        <article>
+            <p class = "field-lapel">Popular Field</p>
+            <img src="images/football.jpeg"
+                alt="Football field" width="300">
+
+            <h3>Green Field Complex</h3>
+
+            <p>Location: Al Salamah, Jeddah</p>
+            <p>Rating: ⭐️ 4.8 (120 reviews)</p>
+            <p>60 SAR / hour</p>
+
+            <a href="fields.html">Book Now</a>
+        </article>
+
+        <hr>
+
+        <article>
+            <img src="images/basketball.jpeg"
+                alt="Indoor basketball court" width="300">
+
+            <h3>Elite Sports Center</h3>
+
+            <p>Location: Al Rawdah, Jeddah</p>
+            <p>Rating: ⭐️ 4.6 (85 reviews)</p>
+            <p>50 SAR / hour</p>
+
+            <a href="fields.html">Book Now</a>
+        </article>
+
+        <hr>
+
+        <article>
+            <img src="images/volleyball.jpeg"
+                alt="Outdoor volleyball court" width="300">
+
+            <h3>Sunrise Arena</h3>
+
+            <p>Location: Al Shati, Jeddah</p>
+            <p>Rating: ⭐️ 4.5 (96 reviews)</p>
+            <p>70 SAR / hour</p>
+
+            <a href="fields.html">Book Now</a>
+        </article>
+
+
+        <!-- Fields Price Table -->
+        <h3>Fields Price Table</h3>
+
+        <table border="1">
+
+            <tr>
+                <th>Field Name</th>
+                <th>Sport</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Green Field Complex</td>
+                <td>Football</td>
+                <td>60 SAR / hour</td>
+            </tr>
+
+            <tr>
+                <td>Elite Sports Center</td>
+                <td>Basketball</td>
+                <td>50 SAR / hour</td>
+            </tr>
+
+            <tr>
+                <td>Sunrise Arena</td>
+                <td>Volleyball</td>
+                <td>70 SAR / hour</td>
+            </tr>
+
+        </table>
+
+        <p>
+            <a href="fields.html">View All</a>
+        </p>
+
+    </section>
+
+
+    <!-- How It Works -->
+    <section id="howItWorks">
+        <h2>How It Works</h2>
+
+        <article>
+            <h3>1. Choose a Sport</h3>
+            <p>Select your favorite sport and location.</p>
+        </article>
+
+        <article>
+            <h3>2. Pick a Field and Time</h3>
+            <p>Browse available fields and choose what fits you.</p>
+        </article>
+
+        <article>
+            <h3>3. Confirm Your Booking</h3>
+            <p>Complete your booking and get ready to play!</p>
+        </article>
+    </section>
+
+
+    <!-- Website Features -->
+    <section>
+        <h2>Why Choose SportFields?</h2>
+
+        <article>
+            <h3>Easy Booking</h3>
+            <p>Find and book a field in minutes.</p>
+        </article>
+
+        <article>
+            <h3>Wide Locations</h3>
+            <p>Find fields across different areas.</p>
+        </article>
+
+        <article>
+            <h3>Play with Friends</h3>
+            <p>Book and enjoy the game with your team.</p>
+        </article>
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+    <h2>SportFields</h2>
+
+    <p>Sports Fields. Better Games.</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports</a>
+        <a href="fields.html">Fields</a>
+        <a href="bookings.html">My Bookings</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+</footer>
+
+</body>
+</html>
